@@ -14,7 +14,7 @@
 
 
 /*!
- * \page IniConfigFile_About INI config file parser
+ * \mainpage
  *
  * The IniConfigFile library is a wrapper for the minIni library found at URL
  * http://www.compuphase.com/minini.htm to provide full compatibility with the

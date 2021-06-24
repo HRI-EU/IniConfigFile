@@ -20,5 +20,9 @@ name             = 'IniConfigFile'
 
 version          = '1.1'
 
+usePatchlevels   = True
+
+patchlevel       = 0
+
 
 # EOF

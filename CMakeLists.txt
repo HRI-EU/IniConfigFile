@@ -20,6 +20,8 @@
 
 cmake_minimum_required(VERSION 2.8.8)
 
+project(IniConfigFile)
+
 find_package(BuildSystemTools)
 
 set(BST_INSTALL_CATEGORY Libraries)
@@ -34,7 +36,7 @@ set(BST_INSTALL_CATEGORY Libraries)
 # (one bst_find_package() per dependency), e.g:
 # bst_find_package(DevelopmentTools/ToolBOSCore/3.0)
 
-bst_find_package(Libraries/ToolBOSLib/3.1)
+bst_find_package(Libraries/ToolBOSLib/4.0)
 bst_find_package(External/minIni/1.2)
 
 
